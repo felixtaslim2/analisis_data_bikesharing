@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-day_df = pd.read_csv("/mount/src/analisis_data_bikesharing/day_cleaned.csv")
-hour_df = pd.read_csv("/mount/src/analisis_data_bikesharing/hour_cleaned.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/felixtaslim2/analisis_data_bikesharing/refs/heads/main/dashboard/day_cleaned.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/felixtaslim2/analisis_data_bikesharing/refs/heads/main/dashboard/hour_cleaned.csv")
 
 st.title('Belajar Analisis Data')
 st.header('[Bike Sharing Dataset]')
